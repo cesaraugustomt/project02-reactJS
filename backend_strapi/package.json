@@ -8,7 +8,7 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "strapi-plugin-content-type-builder": "3.6.2"
+    "postinstall": "cd plugins/wysiwyg && npm i"
 
   },
   "devDependencies": {},
